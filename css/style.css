@@ -1,0 +1,545 @@
+/*---------------------------- Global ----------------------*/
+
+/*--------- Font personalisé ----------*/
+
+@font-face {                                  
+    font-family: Font-regulier;
+    src: url(../font/Sarabun-Light.ttf);
+}
+
+@font-face {                                  
+    font-family: Font-bold;
+    src: url(../font/Sarabun-ExtraBold.ttf);
+}
+
+/*---------- Propriété CSS -------------*/
+
+body {
+    font-family: font-regulier;
+}
+
+body h2{
+    font-family: font-bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+button{
+    font-family: font-bold;
+}
+
+#arrow {
+    bottom: 15px;
+    right: 15px;
+    color: rgb(45, 45, 45);
+    z-index: 9;
+}
+
+/*---------------------------- Menu -------------------------*/
+
+/*----------- Global ---------*/
+
+
+#ham_petit *, #ham_gros *, #menu * {
+    z-index: 10;
+}
+
+.sous {
+    display: none;
+}
+
+#ham_gros, #ham_petit{
+    display: none;
+}
+
+/*-------------- Full Size ------------*/
+
+#drop1:hover #dropped1, #drop2:hover #dropped2, #drop3:hover #dropped3 {
+    visibility: visible;
+    color: gray;
+}
+
+.dropped {
+    visibility: hidden;
+    background-color: rgb(45, 45, 45);
+    line-height: initial;
+}
+
+/*------------ Gros et petit ----------*/
+
+#menu {
+    height: 114px;
+    transition: all ease 250ms 0s;
+}
+
+nav {
+    width: 1100px;
+    height: 114px;
+    transition: all ease 250ms 0s;
+}
+
+nav ul li a {
+    line-height: 57px;
+}
+
+nav div {
+    font-size: 1.2em;
+    margin-left: 100px;
+}
+
+nav div a {
+    margin-right: 5px;
+}
+
+/*---------------------------- Header ----------------------*/
+
+#header_gros {
+    height: 610px;
+    overflow: hidden;
+}
+
+#header_petit {
+    display: none;
+    overflow: hidden;
+}
+
+#logo {
+    top: 210px;
+}
+
+/*---------------------------- Main -------------------------*/
+
+/*------------ Global ------------*/
+
+#apropos, #service, #contenuoriginal, #nouvelles, #carrieres {
+    padding-top:70px;
+    padding-bottom:100px;
+}
+
+#apropos div, #service div, #confiance div, #contenuoriginal div, #nouvelles div, #carrieres {
+    width: 1000px;
+}
+
+#apropos div h1, #service div h1 {
+    font-size: 50px;
+}
+
+#apropos div p, #service div p {
+    font-size: 23px;
+}
+
+/*----- hover -----*/
+
+#card-gr-2>div, #card-gr-1>div{
+    transition: 150ms;
+}
+
+#card-gr-2 a, #card-gr-1 a {
+    visibility: hidden;
+    transition: 150ms;
+}
+
+#card-gr-2 div:hover a, #card-gr-1 div:hover a{
+    visibility: visible;
+}
+
+#card-gr-2>div:hover, #card-gr-1>div:hover{
+    filter: brightness(130%);
+}
+
+.li div:hover{
+    color: black;
+}
+
+/*------- Groupe de carte 1 ------*/
+
+#card-gr-1 div div {
+    top: 175px;
+}
+
+#card-gr-1 div div h4 {
+    width: 200px;
+}
+
+#card-gr-1 a{
+    font-size: 13px;
+    font-family: font-bold;
+}
+
+#card-gr-1>div{
+    height: 450px;
+}
+
+#vignette1{
+    background-image: url(../img/vignette1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#vignette2{
+    background-image: url(../img/vignette2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#vignette3{
+    background-image: url(../img/vignette3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#vignette4{
+    background-image: url(../img/vignette4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+/*- Confiance & Contenu original -*/
+
+#confiance div h1, #contenuoriginal div h1 {
+    font-size: 50px;
+}
+
+/*----------- Confiance ----------*/
+
+#confiance div div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*------- Contenu original -------*/
+
+#contenuoriginal div div p {
+    font-size: 23px;
+}
+
+/*------- Groupe de carte 2 ------*/
+
+#card-gr-2 div div {
+    top: 200px;
+}
+
+#card-gr-2 a{
+    font-family: font-bold;
+}
+
+#card-gr-2>div {
+    height: 500px;
+}
+
+#vignette5{
+    background-image: url(../img/Maxi_thumb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#vignette6{
+    background-image: url(../img/TNI_PC_vignette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#vignette7{
+    background-image: url(../img/FATED_VR_EXPERIENCE_vignette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+/*----------- Nouvelles ----------*/
+
+#nouvelles a{
+    color: white;
+    transition: 0.1s;
+}
+
+#nouvelles button{
+    font-family: font-bold;
+    margin-top: 100px;
+}
+
+#nouvelles_bloc {
+    margin-top: 60px;
+}
+
+#nouvelles p {
+    width: 290px;
+}
+
+#evenement {
+    margin-top: 100px;
+}
+
+#evenement_bloc {
+    margin-top: 60px;
+}
+
+#nouvelles a:hover{
+    color: rgb(155, 147, 147);
+}
+
+#carousel, #carousel2, #carousel_medium, #carousel_medium2, #titre_small{
+    display: none;
+}
+#carousel div div div div, #carousel2 div div div div{
+    height: 50%;
+}
+
+/*---------- Carrières -----------*/
+
+#carrieres>p {
+    font-size: 1.5em;
+}
+
+#carrieres>div {
+    font-size: 1.2em;
+}
+
+#carrieres div div div {
+    top: 0;
+}
+
+#carrieres div div div p {
+    top: 100px;
+    left: 550px;
+    width: 400px;
+}
+
+/*---------------------- Pied de Page -----------------------*/
+
+footer {
+    margin-top: 500px;
+}
+
+#footer-div-1 {
+    background-image: url(../img/qc_summer_optimized.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -450px;
+}
+
+#footer-p {
+    margin-top: -200px;
+    margin-left: 200px;
+}
+
+#footer-div-2 {
+    margin-top: -10px;
+}
+
+#footer-div-2 p span {
+    font-size: 0.75em;
+}
+
+
+
+/*--------------------------- Media Query --------------------------*/
+
+/*--------------- VESRION MOBILE SMALL ----------------*/
+
+@media screen and (max-width:600px){
+
+    /*----------------- GLOBAL --------------*/
+
+    #menu, #ham_gros, #nouvelles_gros, #evenement_bloc, #titre_fullsize, #header_gros{
+        display: none;
+    }
+    
+    #ham_petit, #carousel, #carousel2, #titre_small, #header_petit {
+        display: block;
+    }
+
+    #apropos div, #service div, #confiance div, #contenuoriginal div, #nouvelles div, #carrieres {
+        width: 100%;
+    }
+
+    p {
+        font-size: 1em !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /*-------------- Main -------------------*/
+
+    /*------- Card-Group 1 & 2 ------*/
+
+    #card-gr-2 a, #card-gr-1 a {
+        visibility: visible;
+        width: 120px !important;
+    }
+
+    #card-gr-1>div, #card-gr-2>div {
+        min-width: 301px;
+        margin-bottom: 0px !important;
+    }
+
+    /*-------- Nouvelles -----------*/
+
+    #nouvelles .carousel-item{
+        height: 150px !important;
+        font-size: 14px;
+    }
+
+    #nouvelles p{
+        width: 100%;
+    }
+    #evenement h2, #nouvelles h2{
+        font-size: 30px;
+        
+    }
+
+    /*--------------- FOOTER ---------------*/
+
+    footer h1{
+        font-size: 33px;
+    }
+
+    #footer-p{
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 50px;
+    }
+}
+
+/*------------------- VESRION MOBILE MEDIUM -----------------------*/
+
+@media screen and (min-width: 600px) and (max-width:1023px){
+    
+    /* ---------------- GLOBAL ---------------*/
+
+    #apropos div, #service div, #confiance div, #contenuoriginal div, #nouvelles div, #carrieres {
+        width: 100%;
+    }
+    
+    #menu, #ham_petit, #nouvelles_gros, #evenement_bloc{
+        display:none;
+    }
+    
+    #ham_gros, #carousel_medium, #carousel_medium2{
+        display: block;
+    }
+
+    main p {
+        width: 600px;
+        font-size: 1em !important;
+    }
+    
+    /*----------------- MENU ------------------*/
+
+    #logo {
+        height: 200px !important;
+    }
+
+    /* ----------- CARD-GR 1 & 2 --------------*/
+
+    #card-gr-2 a, #card-gr-1 a {
+        visibility: visible;
+        width: 120px !important;
+    }
+    
+    #card-gr-1>div, #card-gr-2>div {
+        min-width: 600px;
+        margin-bottom: 0px !important;
+    }
+
+    /* ------------- NOUVELLES ------------- */
+
+    #nouvelles .carousel-item {
+        height: 150px;
+    }
+    
+    /* -------------- FOOTER ------------------*/
+
+    footer h1{
+        font-size: 33px;
+    }
+
+    #footer-p{
+        margin-left: 30px;
+    }
+}
+
+/*-----------------------------------RESIZING CAROUSEL CARRIERES LARGE-MEDIUM-----------------*/
+
+@media screen and (min-width: 869px) and (max-width:1110px){
+
+    #carrieres p{
+        font-size: 17px !important;
+        left: 350px !important;
+        width: 400px !important;
+    }
+
+    #carrieres img{
+        width: 354px;
+    }
+
+    #carrieres .carousel-item{
+        margin: auto;
+        float: none;
+        width: 75%;
+    }
+}
+
+/*-----------------------------------RESIZING CAROUSEL CARRIERES SMALL-MEDIUM-----------------*/
+
+@media screen and (min-width: 706px) and (max-width:869px){
+
+    #carrieres p{
+        font-size: 17px !important;
+        left: 304px !important;
+        width: 400px !important
+    }
+
+    #carrieres img{
+        width: 304px;
+    }
+}
+/*------------------------------------ RESIZING CAROUSEL SMALL -------------------------*/
+
+@media screen and (max-width: 706px){
+
+    #carrieres p {
+        position: static !important;
+        width: 80% !important;
+        font-size: 15px !important;
+        text-align: center !important;
+        padding: 7px;
+        margin: auto !important;
+    }
+    
+    #carrieres img {
+        width: 350px;
+        margin: auto;
+    }
+    #carouselControls{
+        height: 820px;
+    }
+    #carrieres .carousel-item{
+        height: 100%;
+    }
+}
+
+/* -------- DÉTAILS IMPORTANTS --------*/
+
+#header_gros img {
+    transition: linear 100s;
+}
+
+#header_gros img:hover{
+    transform: rotate(72000deg);
+    transform-origin: center;
+}

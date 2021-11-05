@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Frima | Innovation et divertissement numérique depuis 2003</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Marc-André Couturier">
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://frimastudio.com/wp-content/uploads/2016/07/fIco_FrimaGen_02.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/558fd43eda.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body id="top" class="">
+    <!-- =============================== MENU ============================================================= -->
+
+    <!-- ============================= MENU HAMBURGER PETIT ========================================================== -->
+    <div id="ham_petit" class="fixed-top">
+        <nav class="navbar navbar-dark bg-dark w-100 h-100">
+
+            <img src="/img/Frima_Logo_Horizontal_blanc.png" width="96" height="20" alt="#">
+            <button class="navbar-toggler position-absolute border-0 text-light" style="right: 10px;" type="button"
+                data-toggle="collapse" data-target="#navbarToggleExternalContent_petit"
+                aria-controls="navbarToggleExternalContent_petit" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/menu_ham.svg" alt="hamburger" width="24" height="24">
+            </button>
+
+        </nav>
+
+        <!-- ========================================================== MENU HAM PETIT DEROULANT ================================ -->
+
+        <div class="collapse w-100" id="navbarToggleExternalContent_petit">
+            <div class="bg-dark p-3">
+
+                <a id="principal1_petit" class=" float-left text-light ml-3 d-block" href="#apropos">À propos</a>
+                <a class="float-right" href="#" onclick="dropdownMiniMenu('sous1_petit');"><img id="sous1_petit_img"
+                        src="/img/arrow_right.svg" alt="->" width="16" height="16"></a>
+                <br>
+
+                <a href="https://www.frimastudio.com/fr/biographies/" id="sous1_petit"
+                    class=" sous text-light ml-3 pt-3 pl-5">Équipe de
+                    direction</a>
+
+                <a class="text-light ml-3 pt-3 d-block" href="#service">Service</a>
+
+                <a class="text-light ml-3 pt-3 pb-3 d-block" href="#contenuoriginal">Contenu original</a>
+
+                <a id="principal2_gros" class="float-left text-light ml-3 d-block" href="#nouvelles">Nouvelles</a>
+                <a class="float-right" href="#" onclick="dropdownMiniMenu('sous2_petit');"><img id="sous2_petit_img"
+                        src="/img/arrow_right.svg" alt="->" width="16" height="16"></a>
+                <br>
+
+                <a id="sous2_petit" class="sous text-light ml-3 pt-3 pl-5"
+                    href="https://www.frimastudio.com/fr/blogue/">Archives</a>
+
+                <a id="principal3_petit" class="float-left text-light ml-3 mt-3 d-block" href="#carriere"
+                    onclick="dropdownMiniMenu('sous3_petit');">Carrières</a>
+                <a class="float-right mt-3" href="#" onclick="dropdownMiniMenu('sous3_petit');"><img
+                        id="sous3_petit_img" src="/img/arrow_right.svg" alt="->" width="16" height="16"></a>
+                <br>
+
+                <a id="sous3_petit" class="sous text-light ml-3 mt-3 pt-3  pl-5"
+                    href="https://www.frimastudio.com/fr/postes-disponibles/">Postes
+                    disponibles</a>
+                <br>
+
+                <a class="text-light ml-3 pt-2 d-block" href="#contacteznous">Contactez-nous</a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================= MENU HAMBURGER GROS ========================================================== -->
+
+    <div id="ham_gros">
+        <nav class="navbar navbar-dark bg-dark w-100">
+
+            <img class="mx-auto" src="/img/Frima_Logo_Horizontal_blanc.png" width="96" height="20" alt="#">
+            <button class="navbar-toggler position-absolute border-0 text-light" style="right: 10px;" type="button"
+                data-toggle="collapse" data-target="#navbarToggleExternalContent_gros"
+                aria-controls="navbarToggleExternalContent_gros" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/menu_ham.svg" alt="hamburger" width="24" height="24">
+            </button>
+
+        </nav>
+
+        <!-- ========================================================== MENU HAM GROS DEROULANT ================================ -->
+
+        <div class="collapse" id="navbarToggleExternalContent_gros">
+            <div class="bg-dark p-4 pb-5">
+
+                <a id="principal1_gros" class="float-left text-light ml-5 d-block" href="#apropos">À propos</a>
+                <a class="float-right" href="#" onclick="dropdownMiniMenu('sous1_gros');"><img id="sous1_gros_img"
+                        src="/img/arrow_right.svg" alt="->" width="16" height="16"></a>
+                <br>
+
+                <a id="sous1_gros" class="sous text-light ml-5 pt-4 pl-5"
+                    href="https://www.frimastudio.com/fr/biographies/">Équipe de direction</a>
+
+                <a class="text-light ml-5 pt-4 d-block" href="#service">Service</a>
+
+                <a class="text-light ml-5 pt-4 pb-4 d-block" href="#contenuoriginal">Contenu original</a>
+
+                <a id="principal2_petit" class="float-left text-light ml-5 d-block" href="#nouvelles">Nouvelles</a>
+                <a class="float-right" href="#" onclick="dropdownMiniMenu('sous2_gros');"><img id="sous2_gros_img"
+                        src="/img/arrow_right.svg" alt="->" width="16" height="16"></a>
+                <br>
+
+                <a id="sous2_gros" class="sous text-light ml-5 pt-4 pl-5"
+                    href="https://www.frimastudio.com/fr/blogue/">Archives</a>
+
+                <a id="principal3_gros" class="float-left text-light ml-5 mt-4 d-block" href="#carriere"
+                    onclick="dropdownMiniMenu('sous3_gros');">Carrières</a>
+                <a class="float-right mt-4" href="#" onclick="dropdownMiniMenu('sous3_gros');"><img id="sous3_gros_img"
+                        src="/img/arrow_right.svg" alt="->" width="16" height="16"></a>
+                <br>
+
+                <a id="sous3_gros" class="sous text-light ml-5 mt-4 pt-4 pl-5"
+                    href="https://www.frimastudio.com/fr/postes-disponibles/">Postes
+                    disponibles</a>
+                <br>
+
+                <a class="text-light ml-5 pt-4 pb-4 d-block" href="#contacteznous">Contactez-nous</a>
+
+                <div class="float-right mb-3">
+                    <a class="text-white-50 ml-1 d-inline-block" href="https://www.facebook.com/frimastudios/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+
+                    <a class="text-white-50 ml-1 d-inline-block" href="https://www.youtube.com/user/FrimaStudio">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a class="text-white-50 ml-1 d-inline-block" href="https://www.linkedin.com/company/frima-studio">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a class="text-white-50 ml-1 d-inline-block" href="https://twitter.com/frimastudios?lang=fr">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================= MENU FULL SIZE ========================================================== -->
+
+    <div id="menu" class="fixed-top w-100 mx-auto">
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark mx-auto align-middle">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><img src="img/Frima_Logo_Horizontal_blanc.png"
+                            alt="img/Frima_Logo_Horizontal_blanc.png" width="90"></a>
+                </li>
+
+                <li id="drop1" class="nav-item h6">
+                    <a class="nav-link" href="#apropos">À PROPOS</a>
+                    <a id="dropped1" class="dropped position-absolute p-2"
+                        href="https://www.frimastudio.com/fr/biographies/">ÉQUIPE DE DIRECTION</a>
+                </li>
+
+                <li class="nav-item h6">
+                    <a class="nav-link" href="#service">SERVICE</a>
+                </li>
+
+                <li class="nav-item h6">
+                    <a class="nav-link" href="#contenuoriginal">CONTENU ORIGINAL</a>
+                </li>
+
+                <li id="drop2" class="nav-item h6">
+                    <a class="nav-link" href="#nouvelles">NOUVELLES</a>
+                    <a id="dropped2" class="dropped position-absolute p-2"
+                        href="https://www.frimastudio.com/fr/blogue/">ARCHIVES</a>
+                </li>
+
+                <li id="drop3" class="nav-item h6">
+                    <a class="nav-link" href="#carriere">CARRIÈRES</a>
+                    <a id="dropped3" class="dropped position-absolute p-2"
+                        href="https://www.frimastudio.com/fr/postes-disponibles/">POSTES DISPONIBLES</a>
+                </li>
+
+                <li class="nav-item h6">
+                    <a class="nav-link" href="#contacteznous">CONTACTEZ-NOUS</a>
+                </li>
+
+            </ul>
+
+            <div class="navbar-item">
+                <a class="text-white-50" href="https://www.facebook.com/frimastudios/"><i
+                        class="fab fa-facebook-square"></i></a>
+
+                <a class="text-white-50" href="https://www.youtube.com/user/FrimaStudio"><i
+                        class="fab fa-youtube"></i></a>
+
+                <a class="text-white-50" href="https://www.linkedin.com/company/frima-studio"><i
+                        class="fab fa-linkedin"></i></a>
+
+                <a class="text-white-50" href="https://twitter.com/frimastudios?lang=fr"><i
+                        class="fab fa-twitter"></i></a>
+
+                <a class="text-white-50" href="https://www.instagram.com/frimastudio/"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- ============================= HEADER ========================================================== -->
+
+    <header id="header_gros" class="position-relative">
+
+        <video class="position-absolute" id="vid" src="vid/Montage_Site_Web_V19-5mbps.mp4" autoplay loop muted></video>
+
+        <div class="d-inline-block text-center w-100 h-100 position-absolute" id="logo">
+            <img class="align-middle" src="img/Frima_Logo_Vertical_blanc.fw_.png"
+                alt="img/Frima_Logo_Vertical_blanc.fw_.png" width="185">
+        </div>
+    </header>
+
+
+    <header id="header_petit" class="w-100 mt-4">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="img/diapo1.jpg" class="d-block w-100" alt="diapo1">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/diapo2.jpg" class="d-block w-100" alt="diapo2">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/diapo3.jpg" class="d-block w-100" alt="diapo3">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/diapo4.jpg" class="d-block w-100" alt="diapo4">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/diapo5.jpg" class="d-block w-100" alt="diapo5">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/diapo6.jpg" class="d-block w-100" alt="diapo6">
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <!-- ============================= MAIN ========================================================== -->
+
+    <main class="position-relative w-100">
+
+        <!-- ============================= SECTION A PROPOS ========================================================== -->
+
+        <section id="apropos" class="text-center bg-light">
+
+            <div class="mx-auto">
+                <h2 class="font-weight-bold">FRIMA</h2>
+                <p class="text-center mx-auto">
+                    Nous sommes un studio de divertissement avec une vaste
+                    expertise transmédia. Nous concevons et nous livrons des expériences numériques divertissantes et
+                    novatrices
+                    par le biais d’une méthodologie créative éprouvée. C’est notre obsession quotidienne.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- ============================= SECTION SERVICE ========================================================== -->
+
+        <section id="service" class="text-center bg-dark text-white">
+
+            <div class="mx-auto">
+                <h2 class="font-weight-bold ">SERVICE</h2>
+                <p class="text-center mx-auto">
+                    Nos équipes de professionnels sont toujours sur les
+                    blocs
+                    de
+                    départ, prêts à saisir la prochaine opportunité de développer des produits divertissants et
+                    engageants.
+                    Laissez-les vous aider à ravir votre public sur la plateforme ou le média de votre choix.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- ============================= SECTION CARD-GROUP 1 ========================================================== -->
+
+        <section id="card-gr-1" class="card-group font-weight-bold text-white ">
+            <div id="vignette1" class="card bg-dark text-center">
+
+                <div class="card-body position-absolute w-100">
+                    <h4 class="card-title font-weight-bold mx-auto">MOBILE, <br>PC & CONSOLE</h4>
+                    <div>
+                        <a href="https://frimastudio.com/wp-content/themes/bridge-child/salesforce_fr.html"
+                            class="btn btn-outline-light w-50">OBTENIR DE L'INFO</a>
+                    </div>
+                    <div class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=-rch4X9m5bM&rel=0"
+                            class="btn btn-outline-light w-50">DÉMO</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div id="vignette2" class="card bg-dark text-center">
+                <div class="card-body position-absolute w-100">
+                    <h4 class="card-title font-weight-bold mx-auto">VR & AR</h4>
+                    <br>
+                    <div class="mt-1">
+                        <a href="https://frimastudio.com/wp-content/themes/bridge-child/salesforce_fr.html"
+                            class="btn btn-outline-light w-50">OBTENIR DE L'INFO</a>
+                    </div>
+                    <div class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=-rch4X9m5bM&rel=0"
+                            class="btn btn-outline-light w-50">DÉMO</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="vignette3" class="card bg-dark text-center">
+                <div class="card-body position-absolute w-100">
+                    <h4 class="card-title font-weight-bold mx-auto">JEU CONNECTÉ</h4>
+                    <br>
+                    <div class="mt-1">
+                        <a href="https://frimastudio.com/wp-content/themes/bridge-child/salesforce_fr.html"
+                            class="btn btn-outline-light w-50">OBTENIR DE L'INFO</a>
+                    </div>
+                    <div class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=-rch4X9m5bM&rel=0"
+                            class="btn btn-outline-light w-50">DÉMO</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="vignette4" class="card bg-dark text-center">
+
+                <div class="card-body position-absolute w-100">
+                    <h4 class="card-title font-weight-bold mx-auto">ANIMATION<br>2D/3D & VFX</h4>
+                    <div>
+                        <div>
+                            <a href="https://frimastudio.com/wp-content/themes/bridge-child/salesforce_fr.html"
+                                class="btn btn-outline-light w-50">OBTENIR DE L'INFO</a>
+                        </div>
+                        <div class="mt-3">
+                            <a href="https://www.youtube.com/watch?v=mZuDbXIvLXw&rel=0"
+                                class="btn btn-outline-light w-50">DÉMO 2D & 3D</a>
+                        </div>
+                        <div class="mt-3">
+                            <a href="https://www.youtube.com/watch?v=LZs_d5hXRGc&rel=0"
+                                class="btn btn-outline-light w-50">DÉMO VFX</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================= SECTION CONFIANCE ========================================================== -->
+
+        <section id="confiance" class="text-center bg-dark text-white">
+            <div class="mx-auto">
+                <br><br><br>
+                <h2 class="font-weight-bold">ILS NOUS FONT CONFIANCE</h2>
+
+                <div>
+                    <img class="ml-3 mr-3" height="85" src="img/mattel.png" alt="img/mattel.png">
+                    <img class="ml-3 mr-3" height="85" src="img/Pogo_White.png" alt="img/Pogo_White.png">
+                    <img class="ml-3 mr-3" height="85" src="img/microsoft.png" alt="img/microsoft.png">
+                    <img class="ml-3 mr-3" height="85" src="img/ubisoft.png" alt="img/ubisoft.png">
+                    <img class="ml-3 mr-3" height="85" src="img/zynga-2.png" alt="img/zynga-2.png">
+                </div>
+                <br>
+            </div>
+        </section>
+
+        <!-- ============================= SECTION CONTENU ORIGINAL ========================================================== -->
+
+        <section id="contenuoriginal" class=" text-center bg-light">
+
+            <div class="mx-auto">
+                <h2 class="font-weight-bold">CONTENU ORIGINAL</h2>
+                <div>
+                    <p class="text-center mx-auto">
+                        Nos équipes de Afin de repousser les frontières de nos
+                        ambitions, nous développons et commercialisons un portfolio toujours croissant de propriétés
+                        intellectuelles avec un seul but en tête : ravir ceux pour qui nous les créons. En d’autres
+                        mots, on
+                        met nos idées à l’épreuve.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ============================= SECTION CARD-GROUP 2 ========================================================== -->
+
+        <section id="card-gr-2" class="card-group text-white text-center">
+            <div id="vignette5" class="card bg-dark">
+
+                <div class="card-body position-absolute w-100">
+                    <h4 class="card-title text-center font-weight-bold">MaXi</h4>
+                    <p class="mx-auto">SÉRIE ANIMÉ AU FORMAT MOBILE</p>
+                    <a href="https://www.youtube.com/watch?v=cX2fcPzTtZU&feature=youtu.be&rel=0"
+                        class="btn btn-outline-light">BANDE-ANONCE</a>
+
+                </div>
+            </div>
+            <div id="vignette6" class="card bg-dark">
+
+                <div class="card-body position-absolute w-100">
+                    <h4 class="card-title font-weight-bold">TALENT NOT INCLUDED</h4>
+                    <p class="mx-auto">JEU PC</p>
+                    <a href="https://www.talentnotincluded.com/accueil" class="btn btn-outline-light">SITE OFFICIEL</a>
+
+                </div>
+            </div>
+            <div id="vignette7" class="card bg-dark">
+
+                <div class="card-body position-absolute w-100">
+                    <h4 class="card-title font-weight-bold">FATED</h4>
+                    <p class="mx-auto">EXPÉRIENCE VR</p>
+                    <a href="http://fatedgame.com/fr/" id="button" class="btn btn-outline-light">SITE
+                        OFFICIEL</a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================== SECTION NOUVELLES ========================================================== -->
+
+        <section class="text-center text-white bg-dark" id="nouvelles">
+            <div class="mx-auto">
+                <h2 class="display-4 font-weight-bold">NOUVELLES</h2>
+
+                <!-- ============================= NOUVELLES FULL SIZE ========================================================== -->
+
+                <div id="nouvelles_gros">
+                    <div class="d-flex justify-content-between" id="nouvelles_bloc">
+                        <!-- ============================= BLOC 1============================= -->
+                        <div class="mr-5">
+                            <a href="#" class="text-decoration-none">
+                                <p class="h-75 h5 mx-auto">
+                                    Frima Studio et Groupe Média TFO lancent MaXi, la première série animée
+                                    francophone pour appareils mobiles destinée aux jeunes
+                                </p>
+                            </a>
+                            <hr class="bg-light">
+                            <p class="h5 mx-auto">18.09.17</p>
+                        </div>
+                        <!-- ============================= BLOC 2============================= -->
+                        <div class="mr-5">
+                            <a href="#" class="text-decoration-none">
+                                <p class="h-75 h5 mx-auto">
+                                    Firma annonce la nomination de Martin Carrier à titre de nouveau président et
+                                    chef
+                                    de la
+                                    direction
+                                </p>
+                            </a>
+
+                            <hr class="bg-light">
+                            <p class="h5 mx-auto">16.08.17</p>
+                        </div>
+                        <!-- ============================= BLOC 3============================= -->
+                        <div>
+                            <a href="#" class="text-decoration-none">
+                                <p class="h-75 h5 mx-auto">
+                                    Talent Not Included honoré au MomoCon 2017 Indie Game Showcase
+                                </p>
+                            </a>
+
+                            <hr class="bg-light">
+                            <p class="h5 mx-auto">30.05.17</p>
+                        </div>
+                    </div>
+                    <!-- ==== BUTTON 1 SECTION NOUVELLES === -->
+                    <button type="button" class="btn btn-outline-light p-2">VOIR TOUT</button>
+                </div>
+                <!-- ========================================================== NOUVELLES SECTION MEDIUM SIZES ============================= -->
+
+                <div id="carousel_medium">
+                    <div id="carouselExampleControls3" class="carousel slide mt-5" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- ============================= BLOC 1============================= -->
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-50 h6 mx-auto">
+                                                Frima Studio et Groupe Média TFO lancent MaXi, la première série animée
+                                                francophone pour appareils mobiles destinée aux jeunes
+                                            </p>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">16.08.17</p>
+                                        </a>
+                                    </div>
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-50 h6 mx-auto">
+                                                Firma annonce la nomination de Martin Carrier à titre de nouveau
+                                                président et chef de la direction
+                                            </p>
+                                        </a>
+                                        <hr class="bg-light w-50">
+                                        <p class="h5 mx-auto">16.08.17</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- ============================= BLOC 2 ============================= -->
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-50 h6 mx-auto">
+                                                Firma annonce la nomination de Martin Carrier à titre de nouveau
+                                                président et chef de la direction
+                                            </p>
+                                        </a>
+
+                                        <hr class="bg-light w-50">
+                                        <p class="h5 mx-auto">16.08.17</p>
+                                    </div>
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-50 h6 mx-auto">
+                                                Talent Not Included honoré au MomoCon 2017 Indie Game Showcase
+                                            </p>
+                                        </a>
+
+                                        <hr class="bg-light w-50">
+                                        <p class="h5 mx-auto">30.05.17</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- ============================= BLOC 3============================= -->
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-50 h6 mx-auto">
+                                                Talent Not Included honoré au MomoCon 2017 Indie Game Showcase
+                                            </p>
+                                        </a>
+
+                                        <hr class="bg-light w-50">
+                                        <p class="h5 mx-auto">30.05.17</p>
+                                    </div>
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-50 h6 mx-auto">
+                                                Frima Studio et Groupe Média TFO lancent MaXi, la première série animée
+                                                francophone pour appareils mobiles destinée aux jeunes
+                                            </p>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">16.08.17</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <a class="carousel-control-prev" href="#carouselExampleControls3" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls3" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========================================================== CAROUSEL NOUVELLES PETIT ============================== -->
+                <div id="carousel">
+                    <div id="carouselExampleControls" class="carousel slide mt-3" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- ==============================BLOC 1============================= -->
+                            <div class="carousel-item active">
+                                <div class="d-block w-100 text-center">
+                                    <a href="#" class="text-decoration-none">
+                                        <p class="h-100 h6 w-100">
+                                            Frima Studio et Groupe Média TFO lancent MaXi, la première série animée
+                                            francophone pour appareils mobiles destinée aux jeunes
+                                        </p>
+
+                                    </a>
+
+
+                                </div>
+                                <hr class="bg-light w-75">
+                                <p class="h5 mx-auto">16.08.17</p>
+
+                            </div>
+                            <!-- ==============================BLOC 2 ============================= -->
+                            <div class="carousel-item">
+                                <div class="d-block w-100">
+                                    <a href="#" class="text-decoration-none w-100">
+                                        <p class="h-100 h6 mx-auto">
+                                            Firma annonce la nomination de Martin Carrier à titre de nouveau
+                                            président et chef de la direction
+                                        </p>
+                                    </a>
+
+
+                                </div>
+                                <hr class="bg-light w-75">
+                                <p class="h5 mx-auto">16.08.17</p>
+                            </div>
+                            <!-- ==============================BLOC 3============================== -->
+                            <div class="carousel-item">
+                                <div class="d-block w-100">
+                                    <a href="#" class="text-decoration-none w-100">
+                                        <p class="h-100 h6 mx-auto">
+                                            Talent Not Included honoré au MomoCon 2017 Indie Game Showcase
+
+                                        </p>
+                                    </a>
+
+
+                                </div>
+                                <hr class="bg-light w-75">
+                                <p class="h5 mx-auto">30.05.17</p>
+                            </div>
+
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ========================================================== SECTION EVENEMENT ============================================================= -->
+                <div class="mx-auto" id="evenement">
+                    <h2 class="display-4 font-weight-bold">ÉVÈNEMENTS : OÙ NOUS TROUVER</h2>
+
+                    <!-- ========================================================== CAROUSEL EVENEMENT PETIT ============================================================== -->
+                    <div id="carousel2">
+                        <div id="carouselExampleControls1" class="carousel slide mt-5 h-100" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- ============================== BLOC 1 ============================== -->
+                                <div class="carousel-item active">
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-100 h6 mx-auto">
+                                                E3 Los Angeles, USA 11-13 Juin 2019
+                                            </p>
+
+                                        </a>
+                                    </div>
+                                    <hr class="bg-light w-75">
+                                    <p class="h5 mx-auto">24.01.19</p>
+
+                                </div>
+                                <!-- ============================== BLOC 2 ============================== -->
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-100 h6 mx-auto">
+                                                GDC San Francisco, USA, 18-22 Mars 2019
+                                            </p>
+                                        </a>
+
+                                    </div>
+                                    <hr class="bg-light w-75">
+                                    <p class="h5 mx-auto">16.01.19</p>
+
+                                </div>
+                                <!-- ============================== BLOC 3 ============================== -->
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <a href="#" class="text-decoration-none w-100">
+                                            <p class="h-100 h6 mx-auto">
+                                                New York Toy Fair, New York City, USA 16-19 Février 2019
+                                            </p>
+                                        </a>
+
+
+                                    </div>
+                                    <hr class="bg-light w-75">
+                                    <p class="h5 mx-auto">16.01.19</p>
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls1" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls1" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!-- ========================================================== EVENEMENT CAROUSEL MEDIUM SIZE ================================ -->
+
+                    <div id="carousel_medium2">
+                        <div id="carouselExampleControls4" class="carousel slide mt-5" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <!-- ============================== BLOC 1============================== -->
+                                <div class="carousel-item active">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-block w-100">
+                                            <a href="#" class="text-decoration-none w-100">
+                                                <p class="h-50 h6 mx-auto">
+                                                    E3 Los Angeles, USA 11-13 Juin 2019
+                                                </p>
+                                            </a>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">24.01.19</p>
+                                        </div>
+
+                                        <div class="d-block w-100">
+                                            <a href="#" class="text-decoration-none w-100">
+                                                <p class="h-50 h6 mx-auto">
+                                                    GDC San Francisco, USA, 18-22 Mars 2019
+                                                </p>
+                                            </a>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">16.01.19</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- ============================== BLOC 2 ============================== -->
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-block w-100">
+                                            <a href="#" class="text-decoration-none w-100">
+                                                <p class="h-50 h6 mx-auto">
+                                                    GDC San Francisco, USA, 18-22 Mars 2019
+                                                </p>
+                                            </a>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">16.01.19</p>
+                                        </div>
+                                        <div class="d-block w-100">
+                                            <a href="#" class="text-decoration-none w-100">
+                                                <p class="h-50 h6 mx-auto">
+                                                    New York Toy Fair, New York City, USA 16-19 Février 2019
+                                                </p>
+                                            </a>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">16.01.19</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ============================== BLOC 3 ============================== -->
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-block w-100">
+                                            <a href="#" class="text-decoration-none w-100">
+                                                <p class="h-50 h6 mx-auto">
+                                                    New York Toy Fair, New York City, USA 16-19 Février 2019
+                                                </p>
+                                            </a>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">16.01.19</p>
+                                        </div>
+                                        <div class="d-block w-100">
+                                            <a href="#" class="text-decoration-none w-100">
+                                                <p class="h-50 mx-auto">
+                                                    GDC San Francisco, USA, 18-22 Mars 2019
+                                                </p>
+                                            </a>
+                                            <hr class="bg-light w-50">
+                                            <p class="h5 mx-auto">16.01.19</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <a class="carousel-control-prev" href="#carouselExampleControls4" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls4" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- =========================================================== EVENEMENT FULL SIZE ================================= -->
+                    <div id="evenement_bloc">
+                        <div class="d-flex justify-content-between">
+                            <!-- ============================== BLOC 1 ============================== -->
+                            <div class="mr-5">
+                                <a href="#" class="text-decoration-none">
+                                    <p class="h-50 h5 mx-auto">
+                                        E3 Los Angeles, USA 11-13 Juin 2019
+                                    </p>
+                                </a>
+
+                                <hr class="bg-light">
+                                <p class="h5 mx-auto">24.01.19</p>
+                            </div>
+                            <!-- ============================== BLOC 2 ============================== -->
+                            <div class="mr-5">
+                                <a href="#" class="text-decoration-none">
+                                    <p class="h-50 h5 mx-auto">GDC San Francisco, USA, 18-22 Mars 2019</p>
+                                </a>
+
+                                <hr class="bg-light">
+                                <p class="h5 mx-auto">16.01.19</p>
+                            </div>
+                            <!-- ============================== BLOC 3 ============================== -->
+                            <div>
+                                <a href="#" class="text-decoration-none">
+                                    <p class="h-50 h5 mx-auto">New York Toy Fair, New York City, USA 16-19 Février
+                                        2019
+                                    </p>
+                                </a>
+
+                                <hr class="bg-light">
+                                <p class="h5 mx-auto">16.01.19</p>
+                            </div>
+
+                        </div>
+                        <!-- =============================== BUTTTON FULL SIZE EVENEMENT ================================ -->
+                        <button type="button" class="btn btn-outline-light p-2">VOIR TOUT</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- =========================================================== SECTIONS CARRIÈRE =========================================================================================== -->
+        <section id="carrieres" class="mx-auto text-center pb-5">
+
+            <h2 class="display-4 font-weight-bold">CARRIÈRES</h2>
+            <p class="mx-auto"><span class="font-italic">Pas question de se vanter ici…</span> Ils savent bien mieux que
+                nous pourquoi
+                ils entrent au bureau tous les matins!</p>
+            <hr>
+            <!-- =========================================================== CAROUSEL POUR LA SECTION CARRIÈRE ==============================  -->
+            <div id="carouselControls" class="carousel slide" data-side="carousel">
+                <div class="carousel-inner">
+                    <!-- ============================== CAROUSEL BLOC 1 ============================== -->
+                    <div class=" carousel-item">
+                        <img class="d-block" alt="img/carolane.png" src="img/carolane.png" width="507" height="507">
+                        <p class="position-absolute text-left">
+                            <Strong>Carolane</Strong> – Artiste 2D
+                            <br><br>
+                            « Ce que j'aime chez Frima, c'est de pouvoir travailler avec une équipe jeune, dynamique et
+                            créative. J'ai un directeur artistique disponible et accessible qui me donne la latitude
+                            nécessaire pour me permettre de me développer en tant qu'artiste. J'ai également
+                            l'opportunité de travailler sur plusieurs projets avec des directions artistiques
+                            différentes, ce qui fait que chaque semaine est différente. »
+                        </p>
+                    </div>
+                    <!-- ============================== CAROUSEL BLOC 2 ============================== -->
+                    <div class="carousel-item  align-middle">
+                        <img class="d-block" alt="img/marieeve_3.jfif" src="img/marieeve_3.jfif" width="507"
+                            height="507">
+                        <p class="position-absolute text-left">
+                            <strong>Marie-Ève</strong> – Directrice conception de jeux et expérience utilisateur
+                            <br><br>
+                            « Chez Frima, on fait confiance! On valorise nos idées et on nous confie des responsabilités
+                            importantes. Dans mon travail de conception de jeux, je touche à tous les aspects de la
+                            production : la direction créative, l’expérience utilisateur, les caméras, la narration,
+                            etc. Grâce aux qualités multidisciplinaires que je développe, à la latitude offerte et à la
+                            proximité que j’ai avec les clients, j’ai énormément d’impact sur le produit final. »
+                        </p>
+                    </div>
+                    <!-- ============================== CAROUSEL BLOC 3 ============================== -->
+                    <div class="carousel-item  align-middle">
+                        <img class="d-block" src="img/charles_3.jfif" alt="img/charles_3.jfif" width="507" height="507">
+                        <p class="position-absolute text-left">
+                            <strong>Charles</strong> – Directeur artistique
+                            <br><br>
+                            « Je travaille chez Frima. J'aime travailler là car je me fait des amis. Je suis très gentil
+                            et amicale. blablabla blablablablablabla blablabla blablablablablabla blablablablablablablab
+                            lablablablablablablablablablabl ablablablablablabla blablabla»
+                        </p>
+                    </div>
+                    <!-- ============================== CAROUSEL BLOC 4 ============================== -->
+                    <div class="carousel-item active  align-middle">
+                        <img class="d-block" src="img/Sexappeal.jpg" alt="img/charles_3.jfif" width="507" height="507">
+                        <p class="position-absolute text-left">
+                            <strong>Julius</strong> – Diplomate du grain
+                            <br><br>
+                            « Travailler chez Frima, c’est avoir accès à une grande diversité de projets, à des équipes
+                            de travail talentueuses et à des opportunités de collaboration infinies. C’est avoir la
+                            chance d’évoluer dans un milieu où le partage et la liberté créative sont valorisés. C’est
+                            le choix d’un équilibre entre le travail et la vie familiale, et la possibilité de profiter
+                            d’un cadre de vie enchanteur comme l’Île d’Orléans avec ma femme et mes enfants. »
+                        </p>
+                    </div>
+                    <!-- ============================== CAROUSEL BLOC 5 ============================== -->
+                    <div class="carousel-item align-middle">
+                        <img class="d-block" src="img/torefacteur.jpg" alt="img/charles_3.jfif" width="507"
+                            height="507">
+                        <p class="position-absolute text-left">
+                            <strong>Marcus</strong> – Maître torréfacteur
+                            <br><br>
+                            « Travailler chez Frima, c’est avoir accès à une grande diversité de projets, à des équipes
+                            de travail talentueuses et à des opportunités de collaboration infinies. C’est avoir la
+                            chance d’évoluer dans un milieu où le partage et la liberté créative sont valorisés. C’est
+                            le choix d’un équilibre entre le travail et la vie familiale, et la possibilité de profiter
+                            d’un cadre de vie enchanteur comme l’Île d’Orléans avec ma femme et mes enfants. »
+                        </p>
+                    </div>
+                    <!-- ============================== CAROUSEL BLOC 6 ============================== -->
+                    <div class="carousel-item align-middle">
+                        <img class="d-block" src="img/concierge.jpg" alt="img/charles_3.jfif" width="507" height="507">
+                        <p class="position-absolute text-left">
+                            <strong>Alex</strong> – Gardien de la propeté
+                            <br><br>
+                            « Travailler chez Frima, c’est avoir accès à une grande diversité de projets, à des équipes
+                            de travail talentueuses et à des opportunités de collaboration infinies. C’est avoir la
+                            chance d’évoluer dans un milieu où le partage et la liberté créative sont valorisés. C’est
+                            le choix d’un équilibre entre le travail et la vie familiale, et la possibilité de profiter
+                            d’un cadre de vie enchanteur comme l’Île d’Orléans avec ma femme et mes enfants. »
+                        </p>
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="p-3 bg-dark rounded-circle">
+                        <span class="carousel-control-prev-icon p-2" aria-hidden="true"></span>
+                    </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                    <span class="p-3 bg-dark rounded-circle">
+                        <span class="carousel-control-next-icon p-2" aria-hidden="true"></span>
+                    </span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <hr>
+            <br><br>
+            <a href="https://www.frimastudio.com/fr/postes-disponibles/"
+                class="btn btn-outline-light border p-3 rounded-0 text-dark">VOIR LES POSTES
+                DISPONIBLES</a>
+        </section>
+    </main>
+
+    <!-- ============================= PIED DE PAGE ========================================================== -->
+
+    <footer id="contacteznous">
+
+        <div id="footer-div-1" class=" text-center text-white h4">
+            <br>
+            <h2 id="titre_fullsize" class="mt-5 font-weight-bold">C O N T A C T E Z - N O U S</h2><br>
+            <h2 id="titre_small" class="mt-5 font-weight-bold">CONTACTEZ - NOUS</h2><br>
+            <p class="d-inline-block">
+                <span class="font-weight-bold">QUÉBEC - SIÈGE SOCIAL</span>
+                <br><br>
+                395 rue Victor-Revillon<br>
+                Québec QC G1K 3M8 Canada
+                <br><br><br>
+                <a href="https://www.google.ca/maps/place/Frima+Studio/@46.8127469,-71.225792,17z/data=!4m13!1m7!3m6!1s0x4cb8967147498dc1:0x788cd6df04520858!2s395+Rue+Victor+Revillon,+Ville+de+Qu%C3%A9bec,+QC+G1K+3M9!3b1!8m2!3d46.8127469!4d-71.2236033!3m4!1s0x41076762c8b89787:0x96d00ff856221b3a!8m2!3d46.812488!4d-71.223739?hl=fr"
+                    class="btn btn-outline-dark border rounded-0 text-white">OBTENIR
+                    L'ITINÉRAIRE</a>
+            </p>
+
+            <p id="footer-p" class="d-inline-block text-left align-middle">
+                <img class="mb-2" src="img/call_us.png" alt="img/call_us.png" height="40" width="40">
+                <a class="text-white" href="tel:14185299697">+1(418) 529-9697</a><br>
+                <img class="mb-2" src="img/email_us.png" alt="img/email_us.png" height="40" width="40">
+                <a class="text-white" href="mailto:info@frimastudio.com">info@frimastudio.com</a><br>
+                <img src="img/email_us.png" alt="img/email_us.png" height="40" width="40">
+                <a class="text-white" href="mailto:medias@frimastudio.com">medias@frimastudio.com</a>
+            </p>
+            <br><br><br><br><br><br><br>
+        </div>
+
+        <div id="footer-div-2" class="text-center text-white h6 bg-dark mb-0">
+
+            <br><br>
+            <img src="img/Frima_Logo_Horizontal.fw_-300x88.png" alt="img/Frima_Logo_Horizontal.fw_-300x88.png"
+                width="204" height="60">
+            <br><br>
+            <p>
+                Innovation et divertissement numérique depuis 2003
+                <br><br>
+                <span>© Tous droits réservés. 2019</span>
+            </p>
+            <br>
+
+        </div>
+
+    </footer>
+
+    <a id="arrow" class="position-fixed border border-secondary rounded-circle p-2" href="#top">
+        <img src="img/arrow-up.svg" alt="^" width="35" height="35">
+    </a>
+
+</body>
+
+</html>
